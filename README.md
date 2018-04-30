@@ -18,7 +18,11 @@ Notes:
 
     It has been known that using conda distributed Python will break PyQt5.
     To avoid failures, please consider using Python3 distributed as part of
-    your operating system. 
+    your operating system.
+
+    Even better!: use virtual environment to leave your current Python installation
+    untouched and undisturbed. You might find this article helpful:
+    https://www.metachris.com/2016/03/how-to-install-qt56-pyqt5-virtualenv-python3/ 
 
     
 For MacOS:
