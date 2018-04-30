@@ -23,12 +23,14 @@ Notes:
     To avoid failures, please consider using Python3 distributed as part of
     your operating system. 
 
-    For MacOS:
     
-    Do NOT use Homebrew to install PyQt5. Please use the following command:
-    python3 -m pip install PyQt5
+For MacOS:
+    
+    Do NOT use Homebrew to install PyQt5. 
+    Please use the following commands:
+    1. python3 -m pip install PyQt5
     OR
-    pip3 install PyQt5
+    2. pip3 install PyQt5
 
     If you do not trust your pip3 to be configured correctly, please use the
     first command
