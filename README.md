@@ -1,7 +1,6 @@
 # visproj-pub
 
-This repository is the public repository storing the source files as well
-as the visproj executable.
+visproj-pub repository
 
 File Locations:
     
@@ -36,3 +35,12 @@ For MacOS:
 To run:
     
     python3 main.py
+
+Notes on EEG data:
+
+    Currently works with .txt files
+    File should be arranged as follows:
+        1st row: time stamps
+        following rows: data
+
+    All data points as well as time stamps should be delimited by a comma ","
