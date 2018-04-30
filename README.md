@@ -5,9 +5,7 @@ as the visproj executable.
 
 File Locations:
     
-    Source Files: /visproj-pub/gui/src
-    Executable File: /visproj-pub/gui/dist
-    Package Files: /visproj-pub/gui/build
+    Source Files: /visproj-pub/src
 
 Dependencies:
 
@@ -34,3 +32,7 @@ For MacOS:
 
     If you do not trust your pip3 to be configured correctly, please use the
     first command
+
+To run:
+    
+    python3 main.py

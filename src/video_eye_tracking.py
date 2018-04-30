@@ -164,8 +164,6 @@ class eyeTrackingWidget(QtWidgets.QWidget):
             self.player.play()
 
 
-
-
     def setPosition(self, position):
         self.positionSlider.setValue(position)
         self.player.setPosition(position)
@@ -309,10 +307,6 @@ class eyeTrackingWidget(QtWidgets.QWidget):
         self.update()
         self.randArr = np.random.randint(0, 256, size=(3,15))
 
-
-
-
-
     def makeArr(self, tldata):
         startX = 12.0
         pixLength = 1168.0
@@ -345,7 +339,6 @@ class eyeTrackingWidget(QtWidgets.QWidget):
             qp.begin(self)
             self.colorize(qp)
             qp.end()
-
 
 
     def colorize(self, qp):
