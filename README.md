@@ -44,3 +44,4 @@ Notes on EEG data:
         following rows: data
 
     All data points as well as time stamps should be delimited by a comma ","
+    For more information, please take a look at /visproj-pub/data/eeg/sample_eeg.txt
