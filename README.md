@@ -1,9 +1,11 @@
 # visproj-pub
 
 visproj-pub repository
+Currently the program only supports MacOS because of a bug in PyQt5 that
+renders videos differently on different platforms.
 
 File Locations:
-    
+
     Source Files: /visproj-pub/src
 
 Dependencies:
@@ -22,12 +24,12 @@ Notes:
 
     Even better!: use virtual environment to leave your current Python installation
     untouched and undisturbed. You might find this article helpful:
-    https://www.metachris.com/2016/03/how-to-install-qt56-pyqt5-virtualenv-python3/ 
+    https://www.metachris.com/2016/03/how-to-install-qt56-pyqt5-virtualenv-python3/
 
-    
+
 For MacOS:
-    
-    Do NOT use Homebrew to install PyQt5. 
+
+    Do NOT use Homebrew to install PyQt5.
     Please use the following commands:
     1. python3 -m pip install PyQt5
     OR
@@ -37,7 +39,7 @@ For MacOS:
     first command
 
 To run:
-    
+
     python3 main.py
 
 Notes on EEG data:
